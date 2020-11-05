@@ -12,7 +12,7 @@ In order to prepare the data for analytics, we should design the data into facts
 # Project Steps:
 1.I first prepared my ERD, defined the columns data types and created the tables. --> please check attached ERD <br />
 2.Created the tables as well as the insert statment in sql_queries.py <br />
-3.Run create_tables.py to drop and create the tables
+3.Run create_tables.py to drop and create the tables <br />
 4.for single file processing, etl.ipynb reads and processes a single file from song_data and log_data and loads the data into the tables. This is useful to troubleshoot each single step of data extraction, transformation and finally loading on the Sparkify database<br />
 5.transfer the same the code in etl.ipynb to etl.py to process the whole logs and songs data<br />
 6.I run the test.ipnb to confirm proper loading for the data in all tables.
