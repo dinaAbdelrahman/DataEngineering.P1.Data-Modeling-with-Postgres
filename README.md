@@ -9,6 +9,10 @@ a directory with JSON metadata on the songs in their app (songs information as w
 
 In order to prepare the data for analytics, we should design the data into facts and dimensions tables in star schema. This would help data analysts to easily explore the data and uncover some insights.
 
+## ERD diagram
+
+
+
 # Project Steps:
 1.I first prepared my ERD, defined the columns data types and created the tables. --> please check attached ERD <br />
 2.Created the tables as well as the insert statment in sql_queries.py <br />
