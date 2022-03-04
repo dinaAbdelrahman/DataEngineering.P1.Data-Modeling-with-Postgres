@@ -1,7 +1,7 @@
 # Introduction
 Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app.
 
-# Data structure
+## Data structure
 The available data consists of 2 parts:
 a directory of JSON logs on user activity on the app (which songs were requested by users, the log timestamp, some users information ) --> operational database which gets update by users transactions
 a directory with JSON metadata on the songs in their app (songs information as well as artists) --> static database which is updated in case the startup increases its catalogue
@@ -13,7 +13,7 @@ In order to prepare the data for analytics, we should design the data into facts
 
 
 
-# Project Steps:
+## Project Steps:
 1.I first prepared my ERD, defined the columns data types and created the tables. --> please check attached ERD <br />
 2.Created the tables as well as the insert statment in sql_queries.py <br />
 3.Run create_tables.py to drop and create the tables <br />
