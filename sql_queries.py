@@ -41,7 +41,7 @@ artist_table_insert = ("""INSERT INTO artists (artist_id, name, location, latitu
 time_table_insert = ("""INSERT INTO time (start_time, hour, day, week, month, year, weekday) VALUES(%s,%s,%s,%s,%s,%s,%s) 
 """)
 
-# FIND SONGS
+# Select Statment
 
 song_select = ("""SELECT songs.song_id, artists.artist_id FROM songs JOIN artists ON songs.artist_id=artists.artist_id WHERE songs.title=%s AND artists.name=%s AND songs.duration=%s;
 
